@@ -2,3 +2,5 @@ theme: jekyll-theme-minimal
 title: Rohith Kodakandla
 github:
   is_user_page: false
+  is_project_page: false
+  show_downloads: false
