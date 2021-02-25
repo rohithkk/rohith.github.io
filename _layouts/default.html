@@ -10,6 +10,7 @@
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
+    <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
   </head>
   <body>
     <div class="wrapper">
@@ -21,7 +22,15 @@
         {% endif %}
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
-        <p>Sasd</p> 
+        <div class="LI-profile-badge"  
+             data-version="v1" 
+             data-size="medium" 
+             data-locale="en_US" 
+             data-type="vertical" 
+             data-theme="dark" 
+             data-vanity="rohithkumark">
+              <a class="LI-simple-link" href='https://www.linkedin.com/in/rohithkumark?trk=profile-badge'>ROHITH KODAKANDLA</a>
+        </div>
         {% if site.github.is_user_page %}
         <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
         {% endif %}
